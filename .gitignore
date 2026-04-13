@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+captures/
+recordings/
+reports/
+
+# Model files
+assets/models/*.task
+assets/models/*.tflite
+assets/models/*.onnx
+assets/models/*.pth
+assets/models/*.pt
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# build artifacts
+build/
+dist/
+*.egg-info/
+
+# temporary files
+temp/
+tmp/
